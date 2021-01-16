@@ -1,0 +1,28 @@
+<Root type="OR" ref="NewProject11">
+  <Page title="Facebook – log in or sign up" ref="Facebook">
+    <ObjectGroup ref="Email address or phone number">
+      <Object frame="" ref="Email address or phone number">
+        <Property value="email" ref="name" pref="1"/>
+        <Property value="email" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Email address or phone number']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div[2]/div/div/div/div/div[2]/div/div/form/div/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="inputtext _55r1 _6luy" ref="class" pref="6"/>
+        <Property value="#email" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="pass" ref="name" pref="1"/>
+        <Property value="pass" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[2]/div/div/div/div/div[2]/div/div/form/div/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="inputtext _55r1 _6luy" ref="class" pref="6"/>
+        <Property value="#pass" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

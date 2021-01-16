@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Email address or phone number,"Click the [<Object>] ",Click,,,Facebook
+2,Email address or phone number,Enter the value [<Data>] in the Field [<Object>],Set,@BANDARUSAISANDEEP@GMAIL.COM,,Facebook
+3,Password,"Click the [<Object>] ",Click,,,Facebook
